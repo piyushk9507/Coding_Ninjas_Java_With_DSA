@@ -48,6 +48,8 @@ Sample Output 2 :
 
 */
 
+// Method 1 :- 
+// Solution with Time Complexity O(n^2)
 
 public class Solution {
     
@@ -81,3 +83,40 @@ public class Solution {
         return ans;
 	}
 }
+// ====================================================================================================================================
+
+
+
+// Method 2 :- 
+// Solution with Time Complexity O(n)
+
+
+public class Solution {
+    
+
+	public static int arrayEquilibriumIndex(int[] arr){  
+		//Your code goes here
+        
+        int sum1 = 0;
+        int sum2 = 0;
+        
+        for(int i=1; i<arr.length; i++)
+        {
+            sum2 += arr[i];
+        }
+        
+        for(int i = 1; i < arr.length-1; i++)
+        {
+            sum1 += arr[i-1];
+            sum2 -= arr[i];
+            
+            if(sum1 == sum2)
+            {
+                return i;
+                
+            }
+        }
+        return -1;
+	}
+}
+

@@ -58,3 +58,75 @@ second array. Similarly, the second '2' of the first array matches with the seco
 
 
 */
+
+
+import java.util.*;
+
+public class Solution {
+
+	public static void intersection(int[] arr1, int[] arr2) {          // Time Complexity - O(n^2) 
+	    //Your code goes here
+        
+        Arrays.sort(arr2);
+        Arrays.sort(arr1);
+        
+        for(int i=0; i<arr1.length; i++)
+        {
+            for(int j=0; j<arr2.length; j++)
+            {
+                if(arr1[i] == arr2[j])
+                {
+                    System.out.print(arr1[i] + " ");
+                    arr2[j] = -1;
+                    break;
+                }
+            }
+        }     
+	}
+}
+
+// Alternate Method below.
+/* ====================================================================================
+  
+Optimized Solution
+
+*********************************     */
+
+
+
+import java.util.*;
+
+public class Solution {
+
+	public static void intersection(int[] arr1, int[] arr2) {                   //         // Time Complexity - O(nlog n) 
+	    //Your code goes here
+        
+        int i = 0;
+        int j = 0;
+        Arrays.sort(arr1);      // -> By default Quick Sort - Time Complexity - O(nlog n)
+        Arrays.sort(arr2);
+        
+        while(i < arr1.length && j < arr2.length)
+        {
+            if(arr1[i] < arr2[j])
+            {
+                i++;
+            }
+            else if(arr1[i] > arr2[j])
+            {
+                j++;
+            }
+            else
+            {
+                System.out.print(arr1[i] + " ");
+                i++;
+                j++;
+            }
+            
+        }
+        
+	}
+
+}
+
+

@@ -53,7 +53,6 @@ Sample Output 2 :
 
 public class Solution {
     
-
 	public static int arrayEquilibriumIndex(int[] arr){  
 		//Your code goes here
         int ans = -1;

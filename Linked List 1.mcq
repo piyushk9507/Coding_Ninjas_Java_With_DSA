@@ -56,6 +56,20 @@ list[2] = "Bus" ;
 list.add( "Bus", list.indexOf("Car") );
 list.set( 2, "Bus" );              ==    Correct Answer
 list.set( "Bus", "Car" );
+================================================================================
+
+Linked List Use Case
+
+Linked List are best suited:
+
+Options
+This problem has only one correct answer
+for relatively permanent collections of data.
+for the size of the structure is constantly changing.  ==  Correct Answer
+for random Access of elements
+None of these
+================================================================================
+
 
 
 

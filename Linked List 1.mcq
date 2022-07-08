@@ -202,5 +202,18 @@ This problem has only one correct answer
 11 21   == Correct Answer
 Error
 None of these
+===================================================================================================
+
+
+Search In LL
+Send Feedback
+What will be the time complexity of searching an element in the linked list ?
+
+Options
+This problem has only one correct answer
+O(1)
+O(n)      ====   Correct Answer
+O(nlogn)
+O(n^2)
 
 

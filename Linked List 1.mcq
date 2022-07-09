@@ -228,5 +228,50 @@ O(n)      =====    Correct Answer
 O(1)
 O(nlogn)
 O(n^2)
+=====================================================================================================
+
+Insert At 2nd Position
+
+There is reference (or pointer) to first Node of the Linked List, then time required to insert element to second position is __________.
+Indexing starts from 0.
+
+Options
+This problem has only one correct answer
+O(1)       ====  correct answer
+O(n)
+O(nlogn)
+O(n^2)
+========================================================================
+
+Operations In O(1)
+
+Given an unsorted singly Linked List, suppose you have reference (or pointer) to its head node only, which of the following operation can be implemented in O(1) time?
+i)   Insertion at the front of the linked list
+ii)  Insertion at the end of the linked list
+iii) Deletion of the last node of the linked list
+iv)  Deletion of the front node of the linked list
+
+Options
+This problem has only one correct answer
+I and II
+I and IV       ====   Correct Answer
+I, II and III
+I, II and IV
+========================================================================
+
+Operations In O(1)
+
+Given an unsorted singly Linked List, suppose you have references (or pointer) to its head and tail nodes, which of the following operation can be implemented in O(1) time?
+i)   Insertion at the front of the linked list
+ii)  Insertion at the end of the linked list
+iii) Deletion of the last node of the linked list
+iv)  Deletion of the front node of the linked list
+
+Options
+This problem has only one correct answer
+I and II
+I and III
+I,II and III
+I,II and IV     ====   Correct Answer
 
 

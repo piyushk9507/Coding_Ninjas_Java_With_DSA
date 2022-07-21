@@ -18,5 +18,45 @@ First in First out
 Last in First out    ==    Correct Answer
 =====================================================================
 
+Given an empty Stack and we perform following functions on the stack:
+1. push(5)
+2. push(3)
+3. push(4)
+4. pop()
+5 push(2)
+What is the size of stack now?
+
+Answer
+3 == Correct Answer
+Type here
+=====================================================================
+
+Sum of Stack
+Send Feedback
+What would be the sum of elements of Stack after performing following functions:
+1. push(5)
+2. push(3)
+3. push(4)
+4. pop()
+5. push(2)
+Answer
+10
+Type here
+Correct Answer
+======================================================================
+
+Size function
+Send Feedback
+What should be the return type of size function in stack?
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+float
+double
+char
+int         === Correct Answer
 
 

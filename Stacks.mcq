@@ -80,3 +80,26 @@ Push
 Pop
 IsEmpty
 None    ====   Correct Answer
+==========================================================================
+
+Stack Implementation
+Send Feedback
+What would be the output for the following functions if the size of array used in stack is 5 ?
+1. push(5)
+2. push(4)
+3. push(3)
+4. push (2)
+5. pop()
+6. push(6)
+7. push(8)
+8. push(9)
+9. print(size())  //to print the size of stack
+
+This problem has only one correct answer
+6
+5
+StackFullException at line 8     ====   Correct Answer
+StackFullException at line 7
+======================================================================
+
+
